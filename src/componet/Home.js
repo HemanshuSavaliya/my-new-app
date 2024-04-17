@@ -1,12 +1,21 @@
 import React from "react";
 import Section from "./Section";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home = () => {
-  
+  const containerStyle = {
+    backgroundImage: "url('https://cdn.rentechdigital.com/common_files/rentech/common-images/home-hero-shap-left.png')",
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  };
   return (
-    <div className="container animate__animated animate__fadeIn">
-      <div className="container my-5 pt-5 text-center fw-bold">
-        <h1 className="animate__animated animate__rotateIn">
+    <div className="container-fluid animate__animated animate__fadeIn" style={containerStyle}>
+      <div className="container my-5 pt-5 text-center fw-bold r" >
+        <h1
+          className="animate__animated animate__rotateIn fw-bold py-4 display-4"
+          style={{ fontSize: "3rem" }}
+        >
           Your Global Technology Solutions Partner.
         </h1>
         <p className="container text-center wow animate__fadeInUp">
@@ -18,30 +27,39 @@ const Home = () => {
           implementing a reliable digital solution for your business.
         </p>
       </div>
-      <div className="d-flex pt-4">
-        <img
-          src="https://cdn.rentechdigital.com/common_files/rentech/common-images/enterprises-image.png"
-          alt=""
-        />
-        <div className="my-5">
-          <h1>Digital Solutions for Enterprises</h1>
-          <p className="pt-5">
-            Change your business dynamics with Savaliya Infotech powerful
-            business solutions- Swipecart and Smart Scrapers. Our solutions are
-            aimed to help businesses of all sizes meet customer demands
-            proactively. Experience consistent and robust professional services
-            and support from Savaliya Infotech to streamline complex processes
-            and drive growth to your business.
-          </p>
-          <p>
-            Benefit from our modern business solutions and react to trends as
-            well as opportunities much faster. Our strong support system
-            facilitates increased productivity and sales. Choose a new way to
-            run your business, build strong relationships with customers, and
-            increase revenues with Savaliya Infotech enterprise solutions.
-          </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="https://cdn.rentechdigital.com/common_files/rentech/common-images/enterprises-image.png"
+              alt=""
+              className="img-fluid"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="my-5">
+              <h1>Digital Solutions for Enterprises</h1>
+              <p className="pt-5">
+                Change your business dynamics with Savaliya Infotech powerful
+                business solutions- Swipecart and Smart Scrapers. Our solutions
+                are aimed to help businesses of all sizes meet customer demands
+                proactively. Experience consistent and robust professional
+                services and support from Savaliya Infotech to streamline
+                complex processes and drive growth to your business.
+              </p>
+              <p>
+                Benefit from our modern business solutions and react to trends
+                as well as opportunities much faster. Our strong support system
+                facilitates increased productivity and sales. Choose a new way
+                to run your business, build strong relationships with customers,
+                and increase revenues with Savaliya Infotech enterprise
+                solutions.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
       <div>
         <p className="container">Trusted by 1000+ businesses</p>
       </div>
@@ -81,7 +99,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <div className=" text-center pt-5 my-5 bg-dark text-white">
+      <div className=" container-fluid text-center pt-5 my-5 bg-dark text-white">
         <h1>Powerful Solutions To Meet Your Business Need</h1>
         <h6 className="pt-5">
           SAVALIYA INFOTECH delivers user-focused results that are efficient in
@@ -89,41 +107,41 @@ const Home = () => {
           solutions meet the demands of your growing business, for today and
           tomorrow.
         </h6>
-        <ul className="row bg-gradt-inr-text-main list-inline pt-5 ">
-          <li className="col-md-4 col-6 p-0">
-            <div className="text-center bg-gradt-inr-text py-4  border-end">
+        <ul className="row bg-gradient-inr-text-main list-unstyled pt-5 justify-content-center">
+          <li className="col-md-4 col-6 py-4 border-end">
+            <div className="bg-gradient-inr-text py-4">
               <h3>1500+</h3>
               <h5>Customers Served</h5>
             </div>
           </li>
-          <li className="col-md-4 col-6 p-0">
-            <div className="text-center bg-gradt-inr-text py-4 border-end">
-              <h3 className="d-block">90+</h3>
-              <h5 className="d-block">Expert Team</h5>
+          <li className="col-md-4 col-6 py-4 border-end">
+            <div className="bg-gradient-inr-text py-4">
+              <h3>90+</h3>
+              <h5>Expert Team</h5>
             </div>
           </li>
-          <li className="col-md-4 col-6 p-0">
-            <div className="text-center bg-gradt-inr-text py-4">
-              <h3 className="d-block">2014</h3>
-              <h5 className="d-block">Founded</h5>
+          <li className="col-md-4 col-6 py-4 border-end">
+            <div className="bg-gradient-inr-text py-4">
+              <h3>2014</h3>
+              <h5>Founded</h5>
             </div>
           </li>
-          <li className="col-md-4 col-6 p-0 pt-5">
-            <div className="text-center bg-gradt-inr-text py-4  border-end">
-              <h3 className="d-block">98%</h3>
-              <h5 className="d-block">Customer Satisfaction</h5>
+          <li className="col-md-4 col-6 py-4 border-end">
+            <div className="bg-gradient-inr-text py-4">
+              <h3>98%</h3>
+              <h5>Customer Satisfaction</h5>
             </div>
           </li>
-          <li className="col-md-4 col-6 p-0 pt-5">
-            <div className="text-center bg-gradt-inr-text py-4  border-end">
-              <h3 className="d-block">155+</h3>
-              <h5 className="d-block">Countries Covered</h5>
+          <li className="col-md-4 col-6 py-4 border-end">
+            <div className="bg-gradient-inr-text py-4">
+              <h3>155+</h3>
+              <h5>Countries Covered</h5>
             </div>
           </li>
-          <li className="col-md-4 col-6 p-0 pt-5 pb-5">
-            <div className="text-center bg-gradt-inr-text py-4  ">
-              <h3 className="d-block">100%</h3>
-              <h5 className="d-block">Customer Support</h5>
+          <li className="col-md-4 col-6 py-4">
+            <div className="bg-gradient-inr-text py-4">
+              <h3>100%</h3>
+              <h5>Customer Support</h5>
             </div>
           </li>
         </ul>
@@ -143,7 +161,7 @@ const Home = () => {
           We channel our efforts through advanced solutions designed to make
           your business succeed
         </p>
-        <ul className="pt-4 d-flex mx-5 list-inline container ">
+        <ul className="pt-4 d-flex flex-wrap justify-content-center">
           <li className="list-inline-item my-3 mx-3">
             <img
               loading="lazy"

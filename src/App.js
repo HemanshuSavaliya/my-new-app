@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./componet/Navbar";
 import Home from "./componet/Home";
 import About from './componet/About';
@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contect" element={<Contect />} />
+          <Route path="/contact" element={<Contect />} />
         </Routes>
       </div>
       
