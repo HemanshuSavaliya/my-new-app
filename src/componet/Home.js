@@ -27,17 +27,17 @@ const Home = () => {
           implementing a reliable digital solution for your business.
         </p>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
             <img
               src="https://cdn.rentechdigital.com/common_files/rentech/common-images/enterprises-image.png"
               alt=""
               className="img-fluid"
             />
           </div>
-          <div class="col-lg-6">
-            <div class="my-5">
+          <div className="col-lg-6">
+            <div className="my-5">
               <h1>Digital Solutions for Enterprises</h1>
               <p className="pt-5">
                 Change your business dynamics with Savaliya Infotech powerful

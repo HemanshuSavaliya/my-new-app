@@ -1,24 +1,24 @@
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./componet/Navbar";
 import Home from "./componet/Home";
-import About from './componet/About';
-import Contect from './componet/Contect';
+import About from "./componet/About";
+import Contact from "./componet/Contect"; // Corrected the path
+import Team from "./componet/Team";
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contect />} />
-        </Routes>
-      </div>
-      
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;

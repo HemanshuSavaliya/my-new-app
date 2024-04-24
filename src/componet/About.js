@@ -9,7 +9,7 @@ const About = () => {
     backgroundPosition: 'center',
   };
   return (
-    <div className="container animate__animated animate__fadeIn" style={containerStyle}>
+    <div className=" animate__animated animate__fadeIn" style={containerStyle}>
       <div className="col-xl-9 mx-auto">
         <div className="comn-hero-section-main text-center pt-5 mt-5">
           <h1 className=" fw-bold py-4 " style={{ fontSize: "3rem" }}>
@@ -221,33 +221,33 @@ const About = () => {
           </div>
         </div>
       </div>
-      <section class="row-inr-space-class about-box-bg-image bg-dark text-white p-5">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-4 col-md-6">
-              <div class="swipe-left-right-image text-lg-start text-center">
+      <section className="row-inr-space-class about-box-bg-image bg-dark text-white p-5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-4 col-md-6">
+              <div className="swipe-left-right-image text-lg-start text-center">
                 <img
                   loading="lazy"
                   src="https://cdn.rentechdigital.com/common_files/rentech/Online-shopping-shopify2.png"
-                  class="img-fluid"
+                  className="img-fluid"
                   alt="shopping shopify"
                 />
               </div>
             </div>
-            <div class="col-lg-8 col-md-6 ps-lg-5">
-              <div class="btm-banner-info">
-                <h2 class="mb-0">
+            <div className="col-lg-8 col-md-6 ps-lg-5">
+              <div className="btm-banner-info">
+                <h2 className="mb-0">
                   <bdi>“</bdi>SAVALIYA INFOTECH’s Swipecart was all that I
                   needed to boost my online sales. The conversion from the
                   website to a world-class mobile app was completed in a few
                   days. I can assure you that their product is amazing
                   <bdi>”</bdi>
                 </h2>
-                <div class="pt-4">
+                <div className="pt-4">
                   <img
                     loading="lazy"
                     src="https://cdn.rentechdigital.com/common_files/rentech/shopify-partner.svg"
-                    class="img-fluid"
+                    className="img-fluid"
                     alt="shopify partner"
                   />
                 </div>
@@ -257,9 +257,9 @@ const About = () => {
         </div>
       </section>
 
-      <div class="row justify-content-center">
-        <div class="col-xl-9 col-md-10 col-sm-12 mx-auto">
-          <div class="text-center sl-fstr-text py-5">
+      <div className="row justify-content-center">
+        <div className="col-xl-9 col-md-10 col-sm-12 mx-auto">
+          <div className="text-center sl-fstr-text py-5">
             <h2>Differentiate Your Brand, Dominate Your Marketplace</h2>
             <h6>
               We have the ideal solutions to meet your specific company

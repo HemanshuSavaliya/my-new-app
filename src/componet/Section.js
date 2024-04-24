@@ -75,12 +75,11 @@ const Section = () => {
               </div>
               <div className="bdr-top-info mt-3"></div>
             </div>
-
+            
             <div className="col-lg-6 col-md-8 mx-auto mb-4 mb-lg-0">
               <div className="row">
                 <div className="col-sm-4 col-6 mb-4 mb-sm-0">
                   <div className="footer-links-info">
-                    <h4 className="text-white text-center pb-3">Navigation</h4>
                     <ul className="list-unstyled">
                       <li>
                         <a className="text-white text-decoration-none" href="/">
@@ -124,9 +123,6 @@ const Section = () => {
                 </div>
                 <div className="col-sm-4 col-6 mb-4 mb-sm-0">
                   <div className="footer-links-info">
-                    <h4 className="text-white text-center pb-3">
-                      Useful Links
-                    </h4>
                     <ul className="list-unstyled">
                       <li>
                         <a
@@ -196,26 +192,29 @@ const Section = () => {
                     <ul className="list-unstyled">
                       <li>
                         <a
+                        target="_blank"
                           className="text-white text-decoration-none"
-                          href="/swipecart"
+                          href="https://rentechdigital.com/swipecart"
                         >
                           Swipecart
                         </a>
                       </li>
                       <li>
                         <a
+                        target="_blank"
                           className="text-white text-decoration-none"
-                          href="/smartscraper"
+                          href="https://rentechdigital.com/smartscraper"
                         >
                           Smartscrapers
                         </a>
                       </li>
                       <li>
                         <a
+                        target="_blank"
                           className="text-white text-decoration-none"
-                          href="/dotcom"
+                          href="https://rentechdigital.com/leadfeed"
                         >
-                          dotcom
+                          Leadfeed
                         </a>
                       </li>
                     </ul>
@@ -241,7 +240,7 @@ const Section = () => {
                           <a
                             target="_blank"
                             className="text-capitalize d-inline-block text-white text-decoration-none"
-                            href="https://g.page/rentech-digital"
+                            href="https://www.google.com/maps/place/Rentech+Digital+Inc/@40.7574701,-73.9817449,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25996600005e9:0x52df57984d7eb9e8!8m2!3d40.7574701!4d-73.9817449!16s%2Fg%2F11ngphvcfr?entry=ttu"
                           >
                             1180 Avenue of the Americas 9th floor, New York, NY
                             10036
@@ -264,7 +263,7 @@ const Section = () => {
                           <a
                             target="_blank"
                             className="text-capitalize d-inline-block text-white text-decoration-none"
-                            href="https://g.page/rentech-digital"
+                            href="https://www.google.com/maps/place/Rentech+Digital+Inc/@21.2352457,72.8589696,62m/data=!3m1!1e3!4m6!3m5!1s0x3be04f3289ea4865:0x378f02782407bed7!8m2!3d21.2351039!4d72.8590221!16s%2Fg%2F11pdw99m4x?entry=ttu"
                           >
                             401, Amby Valley Arcade, opp. Santosa Heights,
                             Uttran, Surat, Gujarat 394101
